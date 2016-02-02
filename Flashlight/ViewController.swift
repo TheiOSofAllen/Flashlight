@@ -5,7 +5,6 @@
 //  Created by Michael Mecham on 2/01/2016.
 //  Copyright © 2016 DevMountain. All rights reserved.
 //
-//
 
 import UIKit
 
@@ -22,20 +21,14 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.blackColor()
         buttonTapped.setTitle("On", forState: .Normal)
         buttonTapped.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-        
-            
         } else {
             isOn = true
             self.view.backgroundColor = UIColor.whiteColor()
             buttonTapped.setTitle("Off", forState: .Normal)
             buttonTapped.setTitleColor(UIColor.blackColor(), forState: .Normal)
-
         }
-        
     }
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -45,7 +38,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
