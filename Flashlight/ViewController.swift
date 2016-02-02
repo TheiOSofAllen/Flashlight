@@ -2,8 +2,9 @@
 //  ViewController.swift
 //  Flashlight
 //
-//  Created by Caleb Hicks on 9/23/15.
-//  Copyright © 2015 DevMountain. All rights reserved.
+//  Created by Michael Mecham on 2/01/2016.
+//  Copyright © 2016 DevMountain. All rights reserved.
+//
 //
 
 import UIKit
